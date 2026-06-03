@@ -1,5 +1,5 @@
 # Hey there, I'm Muhammad Shoaib👋
-Full stack Blockchain Engineer
+Blockchain Engineer
 
 mohammadshoaibzohaib@gmail.com
 
