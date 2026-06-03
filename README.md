@@ -1,4 +1,4 @@
-# Hey, I'm Muhammad Shoaib 👋
+# Hey there👋
  
 I'm a Blockchain Developer with hands-on experience building smart contracts, DeFi systems, and decentralized applications on Ethereum and Solana. I'm also leveling up my full stack web development skills on the side.
  
