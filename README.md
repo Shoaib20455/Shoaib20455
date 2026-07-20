@@ -1,116 +1,181 @@
-# Hey there, I'm Muhammad Shoaib👋
-Blockchain Developer
-
-mohammadshoaibzohaib@gmail.com
-
- 
 <!--suppress HtmlDeprecatedAttribute -->
-# Hello! 👋 I am Muhammad Shoaib
-### Blockchain Developer | Web3 Engineer
-
+# Hello! 👋 I am a Blockchain Developer & Web3 Engineer
 <div>
 <br/>
-
-I am a **Blockchain Developer and Web3 Engineer** specializing in building secure, scalable, and production-ready decentralized applications (dApps) and smart contracts. Whether you're looking to hire a blockchain developer for DeFi protocols, NFT platforms, or custom Web3 infrastructure, I handle the full on-chain side.
-
-- 🔭 My core expertise spans the full EVM ecosystem and beyond — I develop and audit smart contracts on **Ethereum, Polygon, and Abstract**, build **Solana programs using Rust and Anchor**, and architect cross-chain solutions on **Stellar**.
-- 🌱 Hands-on experience with token standards (**ERC-20, ERC-721, ERC-1155, ERC-4337**), DeFi integrations, and advanced patterns including **Account Abstraction, Multisig Wallets, and Diamond Proxy Architecture (EIP-2535)**.
-- 🛠️ I build and deploy **vesting contracts** and **NFT Marketplaces with royalty mechanisms** for production environments.
-- 🔐 I actively work with **Zero Knowledge Proof (ZKP)** systems including **Aztec Protocol and Noir**, and **Light Protocol** for ZK compression on Solana.
-- ⚡ My focus is always on writing gas-efficient, auditable, and maintainable on-chain logic — validated through testnet deployments and verification on networks like **Sepolia and Polygon**.
+- 🔭 Full-stack developer with 8+ years of experience designing and building scalable, high-performance blockchain, web applications<br/>
+- 🌱 Proficient in front-end technologies like React, Angular, and Vue.js, as well as back-end technologies like Node.js, Python, and PHP<br/>
+- 👍 Experienced in DevOps, CI/CD, and Cloud infrastructure, especially with AWS and Azure also GCP<br/>
+- 😍 Developed some AI Apps and integrated with web and ChatGPT.<br/>
+- 😉 Deep knowledge about deep learning, recommendation system and reinforcement system.</br>
+- ⛓️ Blockchain Developer & Web3 Engineer — building secure, scalable, and production-ready dApps, smart contracts, and DeFi protocols<br/>
+- 🔐 Specializing in EVM ecosystem (Ethereum, Polygon), Solana (Rust/Anchor), Stellar, and Zero Knowledge Proof systems (Aztec, Noir, Light Protocol)<br/>
+- 🛠️ Expert in smart contract development & auditing, token standards (ERC-20, ERC-721, ERC-1155, ERC-4337), Account Abstraction, Multisig Wallets, Diamond Proxy (EIP-2535), and Vesting Contracts<br/>
 
 </div>
-
-<h3 align="left">Core Skills & Technologies:</h3>
-
-`Blockchain Development` · `Smart Contract Development` · `Solidity` · `Rust` · `Noir` · `Anchor` · `Ethereum` · `Solana` · `Polygon` · `Stellar` · `Aztec` · `Light Protocol` · `EVM` · `Web3` · `DeFi` · `dApp Development` · `NFT` · `NFT Marketplace` · `ERC-20` · `ERC-721` · `ERC-1155` · `ERC-4337` · `Account Abstraction` · `Multisig Wallets` · `Diamond Proxy` · `Vesting Contracts` · `Zero Knowledge Proof` · `ZKP` · `Layer 2` · `Hardhat` · `Foundry`
 
 <h3 align="left">Languages and Tools:</h3>
 <div style="display: flex; align-items: flex-start; align: center">
 <table align="center">
   <tr>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
-      <br>Solidity
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
+      <br>React
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=rust" width="65" height="65" alt="Rust" />
-      <br>Rust
-    </td>
-    <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
-      <br>TypeScript
+      <a href="#macropower-tech">
+        <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
+      </a>
+      <br>Python
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
-      <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" width="55" height="55" alt="Ethereum" />
-      <br>Ethereum
+        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C++
     </td>
     <td align="center" width="96">
-      <img src="https://cryptologos.cc/logos/solana-sol-logo.png" width="55" height="55" alt="Solana" />
-      <br>Solana
+        <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" height="65" />
+      <br>Webpack
     </td>
     <td align="center" width="96">
-      <img src="https://cryptologos.cc/logos/polygon-matic-logo.png" width="55" height="55" alt="Polygon" />
-      <br>Polygon
+        <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" />
+      <br>Django
     </td>
     <td align="center" width="96">
-      <img src="https://cryptologos.cc/logos/stellar-xlm-logo.png" width="55" height="55" alt="Stellar" />
-      <br>Stellar
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
+      <br>TypeScript
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-      <br>React
+        <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
+      <br>AWS
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C#
     </td>
   </tr>
   <tr>
-    <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/nodejs-icon.svg" alt="icon" width="65" height="65" />
-      <br>Node.js
+  <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
+      <br>PHP
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-      <br>Next.js
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
+      <br>Github
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" width="48" height="48" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
+      <br>Laravel
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+      <br>HTML5
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="css" />
+      <br>CSS
+    </td>
+    <td align="center"  width="96">
+        <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="bootstrap" />
+      <br>Bootstrap
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" />
+      <br>Tailwind
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jQuery" />
+      <br>jQuery
+    </td>
+  </tr>
+ <tr>
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+      <br>MongoDB
+    </td>
+        <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Nodejs" />
+      <br>Nodejs
+      </td>
+<td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
+      <br>MySQL
+    </td>
+            <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VsCode" />
+      <br>VsCode
+    </td>
+              <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
+      <br>WordPress
+    </td>
+              <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
+      <br>Vue
+    </td>
+              <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=sass" width="48" height="48" alt="Sass" />
+      <br>Sass
+    </td>
+              <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL" />
+      <br>GraphQL
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+ </tr>
+ <tr>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Solidity" />
+      <br>Solidity
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" />
+      <br>Rust
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="Ethereum" />
+      <br>Ethereum
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=solana" width="48" height="48" alt="Solana" />
+      <br>Solana
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=hardhat" width="48" height="48" alt="Hardhat" />
       <br>Hardhat
     </td>
     <td align="center" width="96">
-        <img src="https://book.getfoundry.sh/images/foundry-logo.png" width="48" height="48" alt="Foundry" />
+        <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Web3.js" />
+      <br>Web3.js
+    </td>
+    <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=foundry" width="48" height="48" alt="Foundry" />
       <br>Foundry
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
-      <br>Github
+        <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
+      <br>Azure
     </td>
-    <td align="center" width="96">
-        <img src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-      <br>MongoDB
-    </td>
-    <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
-      <br>AWS
-    </td>
-  </tr>
+ </tr>
 </table>
-
 <div align="center">
  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Shoaib20455/Shoaib20455/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Shoaib20455/Shoaib20455/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/Shoaib20455/Shoaib20455/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake.svg" />
 </picture>
 </div>
 <br><br>
