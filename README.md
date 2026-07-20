@@ -36,12 +36,12 @@
       <br>C++
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" height="65" />
-      <br>Webpack
+        <img src="https://cdn.worldvectorlogo.com/logos/polygon-matic-logo.svg" width="48" height="48" alt="Polygon" />
+      <br>Polygon
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" />
-      <br>Django
+        <img src="https://cdn.worldvectorlogo.com/logos/stellar-1.svg" width="48" height="48" alt="Stellar" />
+      <br>Stellar
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
@@ -70,10 +70,6 @@
       <br>Git
     </td>
     <td align="center"  width="96">
-        <img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
-      <br>Laravel
-    </td>
-    <td align="center"  width="96">
         <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
       <br>HTML5
     </td>
@@ -88,10 +84,6 @@
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" />
       <br>Tailwind
-    </td>
-    <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jQuery" />
-      <br>jQuery
     </td>
   </tr>
  <tr>
@@ -112,18 +104,6 @@
       <br>VsCode
     </td>
               <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=wordpress" width="48" height="48" alt="WordPress" />
-      <br>WordPress
-    </td>
-              <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" />
-      <br>Vue
-    </td>
-              <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=sass" width="48" height="48" alt="Sass" />
-      <br>Sass
-    </td>
-              <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" alt="GraphQL" />
       <br>GraphQL
     </td>
@@ -142,15 +122,15 @@
       <br>Rust
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="Ethereum" />
+        <img src="https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg" width="48" height="48" alt="Ethereum" />
       <br>Ethereum
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=solana" width="48" height="48" alt="Solana" />
+        <img src="https://cdn.worldvectorlogo.com/logos/solana-2.svg" width="48" height="48" alt="Solana" />
       <br>Solana
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=hardhat" width="48" height="48" alt="Hardhat" />
+        <img src="https://raw.githubusercontent.com/NomicFoundation/hardhat/refs/heads/main/docs/static/hardhat-logo.svg" width="48" height="48" alt="Hardhat" />
       <br>Hardhat
     </td>
     <td align="center" width="96">
@@ -158,16 +138,34 @@
       <br>Docker
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Web3.js" />
+        <img src="https://cdn.worldvectorlogo.com/logos/web3-1.svg" width="48" height="48" alt="Web3.js" />
       <br>Web3.js
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=foundry" width="48" height="48" alt="Foundry" />
+        <img src="https://raw.githubusercontent.com/foundry-rs/branding/main/logo-transparent.svg" width="48" height="48" alt="Foundry" />
       <br>Foundry
     </td>
+ </tr>
+ <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" />
-      <br>Azure
+        <img src="https://cdn.worldvectorlogo.com/logos/aztec-network.svg" width="48" height="48" alt="Aztec" />
+      <br>Aztec
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.worldvectorlogo.com/logos/zksync.svg" width="48" height="48" alt="ZK" />
+      <br>ZK
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg" width="48" height="48" alt="ERC-4337" />
+      <br>ERC-4337
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.worldvectorlogo.com/logos/metamask-icon.svg" width="48" height="48" alt="Multisig" />
+      <br>Multisig
+    </td>
+    <td align="center" width="96">
+        <img src="https://cdn.worldvectorlogo.com/logos/uniswap-logo.svg" width="48" height="48" alt="DeFi" />
+      <br>DeFi
     </td>
  </tr>
 </table>
