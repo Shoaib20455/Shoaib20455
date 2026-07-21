@@ -110,11 +110,11 @@
       <br>Redis
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/polygon-matic-logo.svg" width="48" height="48" alt="Polygon" />
+        <img src="https://skillicons.dev/icons?i=polygon" width="48" height="48" alt="Polygon" />
       <br>Polygon
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/stellar-1.svg" width="48" height="48" alt="Stellar" />
+        <img src="https://skillicons.dev/icons?i=stellar" width="48" height="48" alt="Stellar" />
       <br>Stellar
     </td>
     <td align="center" width="96">
@@ -122,11 +122,11 @@
       <br>Payload CMS
     </td>
     <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/motiondivision/motion/main/docs/public/favicon.svg" width="48" height="48" alt="motion.dev" />
+        <img src="assets/icons/motion-favicon.svg" width="48" height="48" alt="motion.dev" />
       <br>motion.dev
     </td>
     <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/phusion/passenger/master/images/logo.svg" width="48" height="48" alt="Passenger" />
+        <img src="assets/icons/passenger.png" width="48" height="48" alt="Passenger" />
       <br>Passenger
     </td>
   </tr>
@@ -140,54 +140,54 @@
       <br>Rust
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg" width="48" height="48" alt="Ethereum" />
+        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="Ethereum" />
       <br>Ethereum
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/solana-2.svg" width="48" height="48" alt="Solana" />
+        <img src="https://skillicons.dev/icons?i=solana" width="48" height="48" alt="Solana" />
       <br>Solana
     </td>
     <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/NomicFoundation/hardhat/refs/heads/main/docs/static/hardhat-logo.svg" width="48" height="48" alt="Hardhat" />
+        <img src="assets/icons/hardhat.svg" width="48" height="48" alt="Hardhat" />
       <br>Hardhat
     </td>
     <td align="center" width="96">
-        <img src="https://raw.githubusercontent.com/foundry-rs/branding/main/logo-transparent.svg" width="48" height="48" alt="Foundry" />
+        <img src="assets/icons/foundry-favicon.png" width="48" height="48" alt="Foundry" />
       <br>Foundry
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/web3-1.svg" width="48" height="48" alt="Web3.js" />
+        <img src="https://skillicons.dev/icons?i=web3js" width="48" height="48" alt="Web3.js" />
       <br>Web3.js
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/aztec-network.svg" width="48" height="48" alt="Aztec" />
+        <img src="https://skillicons.dev/icons?i=aztec" width="48" height="48" alt="Aztec" />
       <br>Aztec
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/zksync.svg" width="48" height="48" alt="ZK" />
+        <img src="https://skillicons.dev/icons?i=zksync" width="48" height="48" alt="ZK" />
       <br>ZK
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg" width="48" height="48" alt="ERC-4337" />
+        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="ERC-4337" />
       <br>ERC-4337
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/metamask-icon.svg" width="48" height="48" alt="Multisig" />
+        <img src="https://skillicons.dev/icons?i=metamask" width="48" height="48" alt="Multisig" />
       <br>Multisig
     </td>
     <td align="center" width="96">
-        <img src="https://cdn.worldvectorlogo.com/logos/uniswap-logo.svg" width="48" height="48" alt="DeFi" />
+        <img src="https://skillicons.dev/icons?i=uniswap" width="48" height="48" alt="DeFi" />
       <br>DeFi
     </td>
   </tr>
 </table>
 <div align="center">
  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/Vaibhav2002/Vaibhav2002/blob/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vaibhav2002/Vaibhav2002/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vaibhav2002/Vaibhav2002/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Vaibhav2002/Vaibhav2002/output/github-contribution-grid-snake.svg" />
 </picture>
 </div>
 <br><br>
