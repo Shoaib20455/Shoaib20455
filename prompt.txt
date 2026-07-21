@@ -1,0 +1,91 @@
+Task: Fix broken/missing icons in README.md
+
+Goal:
+- Ensure all icons in README.md render reliably on GitHub.
+
+Steps:
+1) Convert GitHub blob links to raw links:
+   - Replace any URL like:
+     https://github.com/<owner>/<repo>/blob/<path>
+     with:
+     https://raw.githubusercontent.com/<owner>/<repo>/<path>
+
+2) Replace fragile external icon hosts with `skillicons.dev` where available:
+   - polygon-matic-logo.svg  -> https://skillicons.dev/icons?i=polygon
+   - stellar-1.svg           -> https://skillicons.dev/icons?i=stellar
+   - ethereum-eth.svg        -> https://skillicons.dev/icons?i=ethereum
+   - solana-2.svg            -> https://skillicons.dev/icons?i=solana
+   - web3-1.svg              -> https://skillicons.dev/icons?i=web3js
+   - aztec-network.svg       -> https://skillicons.dev/icons?i=aztec
+   - zksync.svg              -> https://skillicons.dev/icons?i=zksync
+   - metamask-icon.svg       -> https://skillicons.dev/icons?i=metamask
+   - uniswap-logo.svg        -> https://skillicons.dev/icons?i=uniswap
+   (If a mapping is not available on skillicons, try raw.githubusercontent.com or download a fallback image locally.)
+
+3) For any remaining image URL that returns non-200 or is blocked:
+   - Download the image into `assets/icons/` (create folder if missing).
+   - Update the `img src` in `README.md` to the relative path `assets/icons/<filename>`.
+
+4) Ensure other raw GitHub paths use `raw.githubusercontent.com` and not `/blob/`. Prefer the `main` branch or the branch that actually serves the asset.
+
+5) Commit and push:
+   - git add README.md assets/icons || true
+   - git commit -m "fix: resolve README icon URLs and add local fallbacks"
+   - git push
+
+Verification:
+- Open a markdown preview or view the repo on GitHub and confirm every icon displays.
+- Optionally run a quick HTTP check for each `img src` to confirm status 200.
+
+Optional automation (save as scripts/fix_readme_icons.py and run it):
+```python
+import re, os, pathlib, requests
+
+README = 'README.md'
+ASSETS = pathlib.Path('assets/icons')
+ASSETS.mkdir(parents=True, exist_ok=True)
+
+with open(README, 'r', encoding='utf8') as f:
+    text = f.read()
+
+# 1) blob -> raw
+text = re.sub(r'https://github.com/([^/]+/[^/]+)/blob/([^"\\s]+)', r'https://raw.githubusercontent.com/\\1/\\2', text)
+
+# 2) Replace known worldvector/cdn URLs with skillicons
+m = {
+  'https://cdn.worldvectorlogo.com/logos/polygon-matic-logo.svg':'https://skillicons.dev/icons?i=polygon',
+  'https://cdn.worldvectorlogo.com/logos/stellar-1.svg':'https://skillicons.dev/icons?i=stellar',
+  'https://cdn.worldvectorlogo.com/logos/ethereum-eth.svg':'https://skillicons.dev/icons?i=ethereum',
+  'https://cdn.worldvectorlogo.com/logos/solana-2.svg':'https://skillicons.dev/icons?i=solana',
+  'https://cdn.worldvectorlogo.com/logos/web3-1.svg':'https://skillicons.dev/icons?i=web3js',
+  'https://cdn.worldvectorlogo.com/logos/aztec-network.svg':'https://skillicons.dev/icons?i=aztec',
+  'https://cdn.worldvectorlogo.com/logos/zksync.svg':'https://skillicons.dev/icons?i=zksync',
+  'https://cdn.worldvectorlogo.com/logos/metamask-icon.svg':'https://skillicons.dev/icons?i=metamask',
+  'https://cdn.worldvectorlogo.com/logos/uniswap-logo.svg':'https://skillicons.dev/icons?i=uniswap',
+}
+for k,v in m.items():
+    text = text.replace(k, v)
+
+# 3) Download remaining remote images that don't respond with 200 and replace with local file
+def handle_img(match):
+    tag = match.group(0)
+    url = match.group(1)
+    try:
+        r = requests.get(url, timeout=8)
+        if r.status_code == 200:
+            ext = url.split('?')[0].split('.')[-1] or 'png'
+            name = pathlib.Path(url.split('?')[0]).stem
+            safe_name = re.sub(r'[^a-z0-9\\-_.]', '-', name.lower())[:60]
+            fname = ASSETS / f'{safe_name}.{ext}'
+            fname.write_bytes(r.content)
+            return tag.replace(url, str(fname.as_posix()))
+    except Exception:
+        pass
+    return tag
+
+text = re.sub(r'<img[^>]+src=\'"[\'"][^>]*>', handle_img, text)
+
+with open(README, 'w', encoding='utf8') as f:
+    f.write(text)
+
+print('README updated. Review and commit changes.')
