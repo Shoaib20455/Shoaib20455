@@ -42,7 +42,7 @@
       <br>C#
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonwebservices.svg" alt="icon" width="48" height="48" />
       <br>AWS
     </td>
     <td align="center" width="96">
@@ -50,7 +50,7 @@
       <br>MySQL
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" alt="icon" width="48" height="48" />
       <br>Github
     </td>
   </tr>
@@ -110,11 +110,11 @@
       <br>Redis
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=polygon" width="48" height="48" alt="Polygon" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/polygon.svg" width="48" height="48" alt="Polygon" />
       <br>Polygon
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=stellar" width="48" height="48" alt="Stellar" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stellar.svg" width="48" height="48" alt="Stellar" />
       <br>Stellar
     </td>
     <td align="center" width="96">
@@ -140,11 +140,11 @@
       <br>Rust
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="Ethereum" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ethereum.svg" width="48" height="48" alt="Ethereum" />
       <br>Ethereum
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=solana" width="48" height="48" alt="Solana" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/solana.svg" width="48" height="48" alt="Solana" />
       <br>Solana
     </td>
     <td align="center" width="96">
@@ -152,33 +152,33 @@
       <br>Hardhat
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/foundry-favicon.png" width="48" height="48" alt="Foundry" />
+        <img src="https://raw.githubusercontent.com/sambacha/foundry-badge/master/foundry-logo.svg" width="48" height="48" alt="Foundry" />
       <br>Foundry
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=web3js" width="48" height="48" alt="Web3.js" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/web3js/web3js-original.svg" width="48" height="48" alt="Web3.js" />
       <br>Web3.js
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=aztec" width="48" height="48" alt="Aztec" />
+        <img src="assets/icons/aztec-logo.png" width="48" height="48" alt="Aztec" />
       <br>Aztec
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=zksync" width="48" height="48" alt="ZK" />
+        <img src="https://raw.githubusercontent.com/matter-labs/zksync/master/zkSyncLogo.svg" width="48" height="48" alt="ZK" />
       <br>ZK
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=ethereum" width="48" height="48" alt="ERC-4337" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ethereum.svg" width="48" height="48" alt="ERC-4337" />
       <br>ERC-4337
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=metamask" width="48" height="48" alt="Multisig" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="48" height="48" alt="Multisig" />
       <br>Multisig
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=uniswap" width="48" height="48" alt="DeFi" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Uniswap_Logo.svg" width="48" height="48" alt="DeFi" />
       <br>DeFi
     </td>
   </tr>
