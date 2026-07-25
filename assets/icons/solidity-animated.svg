@@ -1,16 +1,13 @@
-<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M84.466 0L63.887 36.578H22.756L43.321 0z" opacity=".45"/><path d="M63.887 36.576h41.145L84.468 0H43.323z" opacity=".6"/><path d="M43.323 73.138l20.565-36.562L43.323 0 22.759 36.576z" opacity=".8"/><path d="M43.521 128L64.1 91.424h41.145L84.666 128z" opacity=".45"/><path d="M64.1 91.426H22.955l20.564 36.575h41.145z" opacity=".6"/><path d="M84.666 54.864L64.102 91.426l20.564 36.575 20.579-36.575z" opacity=".8"/>
   <style>
-    .draw {
-      fill: transparent;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      animation: draw-solidity-default 3s linear infinite;
-    }
-      @keyframes draw-solidity-default {
-        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; }
-        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
-        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; }
-      }
+    @keyframes sol-facet-1 { 0%,100% { opacity: 0.45; } 30% { opacity: 1; } 60% { opacity: 0.45; } }
+    @keyframes sol-facet-2 { 0%,100% { opacity: 0.6; } 40% { opacity: 1; } 70% { opacity: 0.6; } }
+    @keyframes sol-facet-3 { 0%,100% { opacity: 0.8; } 50% { opacity: 1; } 80% { opacity: 0.8; } }
+    svg path:nth-child(1) { animation: sol-facet-1 3s ease-in-out 0s infinite; }
+    svg path:nth-child(2) { animation: sol-facet-2 3s ease-in-out 0.15s infinite; }
+    svg path:nth-child(3) { animation: sol-facet-3 3s ease-in-out 0.3s infinite; }
+    svg path:nth-child(4) { animation: sol-facet-1 3s ease-in-out 0.5s infinite; }
+    svg path:nth-child(5) { animation: sol-facet-2 3s ease-in-out 0.65s infinite; }
+    svg path:nth-child(6) { animation: sol-facet-3 3s ease-in-out 0.8s infinite; }
   </style>
-<path class="draw" d="M84.466 0L63.887 36.578H22.756L43.321 0z" opacity=".45"/><path class="draw" d="M63.887 36.576h41.145L84.468 0H43.323z" opacity=".6"/><path class="draw" d="M43.323 73.138l20.565-36.562L43.323 0 22.759 36.576z" opacity=".8"/><path class="draw" d="M43.521 128L64.1 91.424h41.145L84.666 128z" opacity=".45"/><path class="draw" d="M64.1 91.426H22.955l20.564 36.575h41.145z" opacity=".6"/><path class="draw" d="M84.666 54.864L64.102 91.426l20.564 36.575 20.579-36.575z" opacity=".8"/></svg>
+</svg>

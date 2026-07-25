@@ -1,22 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><g fill="#E434AA"><path d="M18.39 96.852l-4.6-2.657L65.04 5.434l4.597 2.656zm0 0"/><path d="M12.734 87.105H115.23v5.31H12.734zm0 0"/><path d="M66.031 119.688L14.766 90.09l2.656-4.602 51.266 29.602zm0 0M110.566 42.543L59.301 12.941l2.656-4.597 51.266 29.597zm0 0"/><path d="M17.434 42.523l-2.657-4.601 51.27-29.598 2.656 4.598zm0 0"/><path d="M109.621 96.852L58.375 8.09l4.598-2.656 51.25 88.761zm0 0M16.8 34.398h5.313v59.204h-5.312zm0 0"/><path d="M105.887 34.398h5.312v59.204h-5.312zm0 0"/><path d="M65.129 117.441l-2.32-4.02 44.586-25.745 2.32 4.02zm0 0"/><path d="M118.238 95.328c-3.07 5.344-9.918 7.168-15.261 4.098-5.344-3.074-7.168-9.922-4.098-15.266 3.074-5.344 9.922-7.168 15.266-4.097 5.375 3.105 7.199 9.921 4.093 15.265M29.09 43.84c-3.074 5.344-9.922 7.168-15.266 4.097-5.344-3.074-7.168-9.921-4.097-15.265 3.074-5.344 9.921-7.168 15.265-4.098 5.344 3.106 7.168 9.922 4.098 15.266M9.762 95.328c-3.075-5.344-1.25-12.16 4.093-15.266 5.344-3.07 12.16-1.246 15.266 4.098 3.07 5.344 1.246 12.16-4.098 15.266-5.375 3.07-12.191 1.246-15.261-4.098M98.91 43.84c-3.07-5.344-1.246-12.16 4.098-15.266 5.344-3.07 12.16-1.246 15.265 4.098 3.07 5.344 1.247 12.16-4.097 15.266-5.344 3.07-12.192 1.246-15.266-4.098M64 126.656a11.158 11.158 0 01-11.168-11.168A11.158 11.158 0 0164 104.32a11.158 11.158 0 0111.168 11.168c0 6.145-4.992 11.168-11.168 11.168M64 23.68a11.158 11.158 0 01-11.168-11.168A11.158 11.158 0 0164 1.344a11.158 11.158 0 0111.168 11.168A11.158 11.158 0 0164 23.68"/></g>
   <style>
-    .draw {
-      fill: transparent;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      animation: draw-graphql-default 3s linear infinite;
+    @keyframes gql-node-pulse {
+      0% { opacity: 0.3; transform: scale(0.8); }
+      15% { opacity: 1; transform: scale(1.2); }
+      30% { opacity: 0.3; transform: scale(0.8); }
+      100% { opacity: 0.3; transform: scale(0.8); }
     }
-      @keyframes draw-graphql-0 {
-        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; fill: #E434AA; }
-        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
-        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: #E434AA; }
-      }
-      @keyframes draw-graphql-default {
-        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; }
-        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
-        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; }
-      }
-    [fill="#E434AA"].draw { animation-name: draw-graphql-0; }
+    @keyframes gql-edge-draw {
+      0% { stroke-dasharray: 0 200; stroke-dashoffset: 0; }
+      30% { stroke-dasharray: 200 0; stroke-dashoffset: 0; }
+      100% { stroke-dasharray: 200 0; stroke-dashoffset: 0; }
+    }
+    /* vertex dots (last 4 small paths) pulse in sequence */
+    svg g path:nth-child(9) { animation: gql-node-pulse 3s ease-in-out 0s infinite; }
+    svg g path:nth-child(10) { animation: gql-node-pulse 3s ease-in-out 0.3s infinite; }
+    svg g path:nth-child(11) { animation: gql-node-pulse 3s ease-in-out 0.6s infinite; }
+    svg g path:nth-child(12) { animation: gql-node-pulse 3s ease-in-out 0.9s infinite; }
+    /* hexagon body pulses */
+    svg g path:nth-child(6) { animation: gql-node-pulse 3s ease-in-out 1.2s infinite; }
+    /* edge lines draw in */
+    svg g path:nth-child(1), svg g path:nth-child(2),
+    svg g path:nth-child(3), svg g path:nth-child(4),
+    svg g path:nth-child(5), svg g path:nth-child(7),
+    svg g path:nth-child(8) {
+      fill: none;
+      stroke: #E434AA;
+      stroke-width: 2;
+      animation: gql-edge-draw 3s ease-in-out infinite;
+    }
   </style>
-<g fill="#E434AA"><path class="draw" d="M18.39 96.852l-4.6-2.657L65.04 5.434l4.597 2.656zm0 0"/><path class="draw" d="M12.734 87.105H115.23v5.31H12.734zm0 0"/><path class="draw" d="M66.031 119.688L14.766 90.09l2.656-4.602 51.266 29.602zm0 0M110.566 42.543L59.301 12.941l2.656-4.597 51.266 29.597zm0 0"/><path class="draw" d="M17.434 42.523l-2.657-4.601 51.27-29.598 2.656 4.598zm0 0"/><path class="draw" d="M109.621 96.852L58.375 8.09l4.598-2.656 51.25 88.761zm0 0M16.8 34.398h5.313v59.204h-5.312zm0 0"/><path class="draw" d="M105.887 34.398h5.312v59.204h-5.312zm0 0"/><path class="draw" d="M65.129 117.441l-2.32-4.02 44.586-25.745 2.32 4.02zm0 0"/><path class="draw" d="M118.238 95.328c-3.07 5.344-9.918 7.168-15.261 4.098-5.344-3.074-7.168-9.922-4.098-15.266 3.074-5.344 9.922-7.168 15.266-4.097 5.375 3.105 7.199 9.921 4.093 15.265M29.09 43.84c-3.074 5.344-9.922 7.168-15.266 4.097-5.344-3.074-7.168-9.921-4.097-15.265 3.074-5.344 9.921-7.168 15.265-4.098 5.344 3.106 7.168 9.922 4.098 15.266M9.762 95.328c-3.075-5.344-1.25-12.16 4.093-15.266 5.344-3.07 12.16-1.246 15.266 4.098 3.07 5.344 1.246 12.16-4.098 15.266-5.375 3.07-12.191 1.246-15.261-4.098M98.91 43.84c-3.07-5.344-1.246-12.16 4.098-15.266 5.344-3.07 12.16-1.246 15.265 4.098 3.07 5.344 1.247 12.16-4.097 15.266-5.344 3.07-12.192 1.246-15.266-4.098M64 126.656a11.158 11.158 0 01-11.168-11.168A11.158 11.158 0 0164 104.32a11.158 11.158 0 0111.168 11.168c0 6.145-4.992 11.168-11.168 11.168M64 23.68a11.158 11.158 0 01-11.168-11.168A11.158 11.158 0 0164 1.344a11.158 11.158 0 0111.168 11.168A11.158 11.158 0 0164 23.68"/></g></svg>
+</svg>

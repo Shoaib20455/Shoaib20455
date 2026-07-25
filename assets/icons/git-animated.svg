@@ -1,16 +1,30 @@
-<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Git</title><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/>
   <style>
-    .draw {
-      fill: transparent;
-      stroke-width: 2;
+    @keyframes draw-branch {
+      0% { stroke-dasharray: 0 1000; stroke-dashoffset: 0; opacity: 1; }
+      40% { stroke-dasharray: 1000 0; stroke-dashoffset: 0; opacity: 1; }
+      60% { stroke-dasharray: 1000 0; stroke-dashoffset: 0; opacity: 1; }
+      100% { stroke-dasharray: 1000 0; stroke-dashoffset: 0; opacity: 1; }
+    }
+    @keyframes pulse-dot {
+      0%, 40% { transform: scale(0); opacity: 0; }
+      50% { transform: scale(1.4); opacity: 1; }
+      60%, 100% { transform: scale(1); opacity: 1; }
+    }
+    #git-path {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.5;
       stroke-linecap: round;
       stroke-linejoin: round;
-      animation: draw-git-default 3s linear infinite;
+      animation: draw-branch 3s ease-in-out infinite;
     }
-      @keyframes draw-git-default {
-        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; }
-        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
-        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; }
-      }
+    #git-dot {
+      fill: currentColor;
+      transform-origin: 12.19px 13.09px;
+      animation: pulse-dot 3s ease-in-out infinite;
+    }
   </style>
-<title>Git</title><path class="draw" d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/></svg>
+  <path id="git-path" d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/>
+  <circle id="git-dot" cx="12.19" cy="13.09" r="2.5"/>
+</svg>
