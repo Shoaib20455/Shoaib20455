@@ -1,7 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 20 100 60" id="cpp-icon">
-  <g>
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.5s" repeatCount="indefinite" additive="sum"/>
-    
   <defs>
     <style>
       @keyframes plus-1-rotate {
@@ -75,6 +72,5 @@
   <g class="cpp-plus cpp-plus-2">
     <rect x="25" y="48" width="10" height="4"></rect>
     <rect x="28" y="45" width="4" height="10"></rect>
-  </g>
   </g>
 </svg>

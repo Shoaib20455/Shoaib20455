@@ -1,6 +1,16 @@
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <g>
-  <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="2s" repeatCount="indefinite" additive="sum"/>
-    <title>Ethereum</title><path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"/>
-  </g>
-</svg>
+  <style>
+    .draw {
+      fill: transparent;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      animation: draw-ethereum-default 3s linear infinite;
+    }
+      @keyframes draw-ethereum-default {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; }
+      }
+  </style>
+<title>Ethereum</title><path class="draw" d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"/></svg>

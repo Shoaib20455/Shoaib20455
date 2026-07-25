@@ -1,7 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 20 88 60" id="csharp-icon">
-  <g>
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.5s" repeatCount="indefinite" additive="sum"/>
-    
   <defs>
     <style>
       @keyframes sharp-1-rotate {
@@ -70,5 +67,4 @@
     <path d="M31.5 42 L 30 57 L 32 57 L 33.5 42 Z"></path>
   </g>
   <!-- <text x="26" y="56" class="csharp-sharp">#</text> -->
-  </g>
 </svg>

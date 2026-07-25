@@ -1,10 +1,40 @@
-<svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-  <g>
-  <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
-    
-    
-        <g transform="translate(0, 0)">
-          <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" fill="#E14E1D" rx="60"/><path fill="#fff" d="M48 38L56.6098 134.593H167.32L163.605 176.023L127.959 185.661L92.38 176.037L90.0012 149.435H57.9389L62.5236 200.716L127.951 218.888L193.461 200.716L202.244 102.655H85.8241L82.901 69.9448H205.041H205.139L208 38H48Z"/><path fill="#EBEBEB" d="M128 38H48L56.6098 134.593H128V102.655H85.8241L82.901 69.9448H128V38Z"/><path fill="#EBEBEB" d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z"/></svg>
-        </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <style>
+    .draw {
+      fill: transparent;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      animation: draw-html-default 3s linear infinite;
+    }
+      @keyframes draw-html-0 {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; fill: #E44D26; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: #E44D26; }
+      }
+      @keyframes draw-html-1 {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; fill: #F16529; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: #F16529; }
+      }
+      @keyframes draw-html-2 {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; fill: #EBEBEB; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: #EBEBEB; }
+      }
+      @keyframes draw-html-3 {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; fill: #fff; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: #fff; }
+      }
+      @keyframes draw-html-default {
+        0% { stroke-dasharray: 0 2000; stroke-dashoffset: 0; }
+        50% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; fill: transparent; }
+        75%, 100% { stroke-dasharray: 2000 2000; stroke-dashoffset: 0; }
+      }
+    [fill="#E44D26"].draw { animation-name: draw-html-0; }
+    [fill="#F16529"].draw { animation-name: draw-html-1; }
+    [fill="#EBEBEB"].draw { animation-name: draw-html-2; }
+    [fill="#fff"].draw { animation-name: draw-html-3; }
+  </style>
+<path class="draw" fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z" stroke="#E44D26" /><path class="draw" fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z" stroke="#F16529" /><path class="draw" fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z" stroke="#EBEBEB" /><path class="draw" fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z" stroke="#fff" /></svg>

@@ -126,7 +126,7 @@
       <br>motion.dev
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/passenger.png" width="48" height="48" alt="Passenger" />
+        <img src="assets/icons/passenger-animated.svg" width="48" height="48" alt="Passenger" />
       <br>Passenger
     </td>
   </tr>
@@ -160,7 +160,7 @@
       <br>Web3.js
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/aztec-logo.png" width="48" height="48" alt="Aztec" />
+        <img src="assets/icons/aztec-animated.svg" width="48" height="48" alt="Aztec" />
       <br>Aztec
     </td>
     <td align="center" width="96">
