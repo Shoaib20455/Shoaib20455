@@ -70,8 +70,6 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/github-animated.svg" alt="icon" width="65" height="65" />
       <br>GitHub
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="assets/icons/git-animated.svg" width="48" height="48" alt="Git" />
       <br>Git
@@ -84,6 +82,8 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/css-animated.svg" width="48" height="48" alt="CSS" />
       <br>CSS
     </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
         <img src="assets/icons/tailwind-animated.svg" width="48" height="48" alt="Tailwind" />
       <br>Tailwind
@@ -96,8 +96,6 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/postgres-animated.svg" width="48" height="48" alt="PostgreSQL" />
       <br>PostgreSQL
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="assets/icons/vscode-animated.svg" width="48" height="48" alt="VS Code" />
       <br>VS Code
@@ -114,8 +112,6 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/payload-animated.svg" width="48" height="48" alt="Payload CMS" />
       <br>Payload CMS
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="assets/icons/solidity-animated.svg" width="48" height="48" alt="Solidity" />
       <br>Solidity
@@ -124,6 +120,8 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/rust-animated.svg" width="48" height="48" alt="Rust" />
       <br>Rust
     </td>
+  </tr>
+  <tr>
     <td align="center" width="96">
         <img src="assets/icons/ethereum-animated.svg" width="48" height="48" alt="Ethereum" />
       <br>Ethereum
@@ -152,8 +150,6 @@ Reliable software needs to account for what happens when a request repeats, an e
         <img src="assets/icons/zksync-animated.svg" width="48" height="48" alt="ZK" />
       <br>ZK
     </td>
-  </tr>
-  <tr>
     <td align="center" width="96">
         <img src="assets/icons/erc4337-animated.svg" width="48" height="48" alt="ERC-4337" />
       <br>ERC-4337
