@@ -1,14 +1,7 @@
-<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Ethereum</title><path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"/>
-  <style>
-    @keyframes eth-split {
-      0%, 100% { transform: translateY(0); }
-      30% { transform: translateY(-2px); }
-      50% { transform: translateY(0); }
-    }
-    svg path {
-      animation: eth-split 3s ease-in-out infinite;
-      transform-origin: 12px 12px;
-    }
-  </style>
-  <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.5;0,0" dur="3s" repeatCount="indefinite"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="ethereum"><title>ethereum</title><desc>Blue light passes across the Ethereum crystal facets; its diamond stays fixed.</desc><defs><style>@keyframes ethereum-crystal-light-0 {0%,100%{opacity:1}45%{opacity:.7}}
+@keyframes ethereum-crystal-light-1 {0%,100%{opacity:1}45%{opacity:.7}}
+@keyframes ethereum-crystal-light-2 {0%,100%{opacity:1}45%{opacity:.7}}
+@keyframes ethereum-crystal-light-3 {0%,100%{opacity:1}45%{opacity:.7}}
+@keyframes ethereum-crystal-light-4 {0%,100%{opacity:1}45%{opacity:.7}}
+@keyframes ethereum-crystal-light-5 {0%,100%{opacity:1}45%{opacity:.7}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } .motion-trail { opacity: 0; } }</style></defs><g transform="translate(10 10) scale(4.5)" fill="#334155"><polygon points="12,0 4.6,12.2 12,8.8" fill="#8fa7ff" style="animation:ethereum-crystal-light-0 9s ease-in-out 0.0s infinite;" /><polygon points="12,0 19.4,12.2 12,8.8" fill="#627eea" style="animation:ethereum-crystal-light-1 9s ease-in-out -0.6s infinite;" /><polygon points="4.6,12.2 12,8.8 12,16.5" fill="#536ac5" style="animation:ethereum-crystal-light-2 9s ease-in-out -1.2s infinite;" /><polygon points="19.4,12.2 12,8.8 12,16.5" fill="#344eac" style="animation:ethereum-crystal-light-3 9s ease-in-out -1.7999999999999998s infinite;" /><polygon points="4.6,13.7 12,18.1 12,24" fill="#8fa7ff" style="animation:ethereum-crystal-light-4 9s ease-in-out -2.4s infinite;" /><polygon points="19.4,13.7 12,18.1 12,24" fill="#627eea" style="animation:ethereum-crystal-light-5 9s ease-in-out -3.0s infinite;" /></g></svg>

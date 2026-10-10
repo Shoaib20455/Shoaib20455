@@ -1,32 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 102.4 102.4">
- <style>
-    path {
-      fill: #333333;
-    }
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="payload"><title>payload</title><desc>Payload’s content blocks separate slightly and assemble again, with violet accents for its monochrome mark.</desc><defs><style>@keyframes payload-content-block-0 {0%,15%,70%,100%{transform:translate(0,0)}40%{transform:translate(2px,3px)}}
+@keyframes payload-content-block-1 {0%,15%,70%,100%{transform:translate(0,0)}40%{transform:translate(-2px,-3px)}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } .motion-trail { opacity: 0; } }</style></defs><rect x="4" y="4" width="120" height="120" rx="25" fill="#eeeaff" /><g transform="translate(10 10) scale(1.05469)" fill="#334155"><path d="M50.67,86.55l-29.8-17.2c-.37-.22-.6-.61-.6-1.04v-26.56c0-.46.5-.75.9-.52l34.6,19.98c.48.28,1.09-.07,1.09-.63v-12.96c0-.52-.28-.99-.72-1.25L14.5,22.32c-.37-.22-.83-.22-1.21,0l-5.45,3.15c-.37.22-.6.61-.6,1.04v49.37c0,.43.23.83.6,1.04l42.75,24.68c.37.22.83.22,1.21,0l35.9-20.73c.48-.28.48-.97,0-1.25l-11.2-6.47c-.45-.26-1-.26-1.45,0l-23.18,13.38c-.37.22-.83.22-1.21,0Z" fill="#635bba" style="animation:payload-content-block-0 7s ease-in-out 0s infinite;" />
+  <path d="M94.56,25.47L51.8.79c-.37-.22-.83-.22-1.21,0l-22.6,13.05c-.48.28-.48.97,0,1.25l11.1,6.41c.45.26,1,.26,1.45,0l10.12-5.84c.37-.22.83-.22,1.21,0l29.8,17.2c.37.22.6.61.6,1.04v26.7c0,.52.28.99.72,1.25l11.08,6.4c.48.28,1.09-.07,1.09-.63V26.52c0-.43-.23-.83-.6-1.04Z" fill="#8276d1" style="animation:payload-content-block-1 7s ease-in-out 0s infinite;" />
 
-    @media (prefers-color-scheme: dark) {
-      path {
-        fill: white;
-      }
-    }
-  </style>
-  <path d="M50.67,86.55l-29.8-17.2c-.37-.22-.6-.61-.6-1.04v-26.56c0-.46.5-.75.9-.52l34.6,19.98c.48.28,1.09-.07,1.09-.63v-12.96c0-.52-.28-.99-.72-1.25L14.5,22.32c-.37-.22-.83-.22-1.21,0l-5.45,3.15c-.37.22-.6.61-.6,1.04v49.37c0,.43.23.83.6,1.04l42.75,24.68c.37.22.83.22,1.21,0l35.9-20.73c.48-.28.48-.97,0-1.25l-11.2-6.47c-.45-.26-1-.26-1.45,0l-23.18,13.38c-.37.22-.83.22-1.21,0Z" />
-  <path d="M94.56,25.47L51.8.79c-.37-.22-.83-.22-1.21,0l-22.6,13.05c-.48.28-.48.97,0,1.25l11.1,6.41c.45.26,1,.26,1.45,0l10.12-5.84c.37-.22.83-.22,1.21,0l29.8,17.2c.37.22.6.61.6,1.04v26.7c0,.52.28.99.72,1.25l11.08,6.4c.48.28,1.09-.07,1.09-.63V26.52c0-.43-.23-.83-.6-1.04Z" />
-
-  <style>
-    @keyframes payload-tumble {
-      0%, 100% { transform: rotate(0deg) scale(1); }
-      25% { transform: rotate(2deg) scale(1.02); }
-      50% { transform: rotate(0deg) scale(1); }
-      75% { transform: rotate(-2deg) scale(0.98); }
-    }
-    svg path:first-child {
-      animation: payload-tumble 4s ease-in-out infinite;
-      transform-origin: 51.2px 51.2px;
-    }
-    svg path:last-child {
-      animation: payload-tumble 4s ease-in-out 0.15s infinite;
-      transform-origin: 51.2px 51.2px;
-    }
-  </style>
-</svg>
+  </g></svg>

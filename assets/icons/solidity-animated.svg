@@ -1,13 +1,8 @@
-<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M84.466 0L63.887 36.578H22.756L43.321 0z" opacity=".45"/><path d="M63.887 36.576h41.145L84.468 0H43.323z" opacity=".6"/><path d="M43.323 73.138l20.565-36.562L43.323 0 22.759 36.576z" opacity=".8"/><path d="M43.521 128L64.1 91.424h41.145L84.666 128z" opacity=".45"/><path d="M64.1 91.426H22.955l20.564 36.575h41.145z" opacity=".6"/><path d="M84.666 54.864L64.102 91.426l20.564 36.575 20.579-36.575z" opacity=".8"/>
-  <style>
-    @keyframes sol-facet-1 { 0%,100% { opacity: 0.45; } 30% { opacity: 1; } 60% { opacity: 0.45; } }
-    @keyframes sol-facet-2 { 0%,100% { opacity: 0.6; } 40% { opacity: 1; } 70% { opacity: 0.6; } }
-    @keyframes sol-facet-3 { 0%,100% { opacity: 0.8; } 50% { opacity: 1; } 80% { opacity: 0.8; } }
-    svg path:nth-child(1) { animation: sol-facet-1 3s ease-in-out 0s infinite; }
-    svg path:nth-child(2) { animation: sol-facet-2 3s ease-in-out 0.15s infinite; }
-    svg path:nth-child(3) { animation: sol-facet-3 3s ease-in-out 0.3s infinite; }
-    svg path:nth-child(4) { animation: sol-facet-1 3s ease-in-out 0.5s infinite; }
-    svg path:nth-child(5) { animation: sol-facet-2 3s ease-in-out 0.65s infinite; }
-    svg path:nth-child(6) { animation: sol-facet-3 3s ease-in-out 0.8s infinite; }
-  </style>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="solidity"><title>solidity</title><desc>Light moves across Solidity’s folded facets; its gray-violet geometry stays stationary.</desc><defs><style>@keyframes solidity-facet-0 {0%,100%{opacity:.45}40%{opacity:.95}}
+@keyframes solidity-facet-1 {0%,100%{opacity:.6}40%{opacity:.95}}
+@keyframes solidity-facet-2 {0%,100%{opacity:.8}40%{opacity:.95}}
+@keyframes solidity-facet-3 {0%,100%{opacity:.45}40%{opacity:.95}}
+@keyframes solidity-facet-4 {0%,100%{opacity:.6}40%{opacity:.95}}
+@keyframes solidity-facet-5 {0%,100%{opacity:.8}40%{opacity:.95}}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } .motion-trail { opacity: 0; } }</style></defs><rect x="4" y="4" width="120" height="120" rx="25" fill="#ede9fe" /><g transform="translate(10 10) scale(0.84375)" fill="#334155"><path d="M84.466 0L63.887 36.578H22.756L43.321 0z" opacity=".45" fill="#5b548b" style="animation:solidity-facet-0 8s ease-in-out 0.0s infinite;" /><path d="M63.887 36.576h41.145L84.468 0H43.323z" opacity=".6" fill="#5b548b" style="animation:solidity-facet-1 8s ease-in-out -0.55s infinite;" /><path d="M43.323 73.138l20.565-36.562L43.323 0 22.759 36.576z" opacity=".8" fill="#5b548b" style="animation:solidity-facet-2 8s ease-in-out -1.1s infinite;" /><path d="M43.521 128L64.1 91.424h41.145L84.666 128z" opacity=".45" fill="#5b548b" style="animation:solidity-facet-3 8s ease-in-out -1.6500000000000001s infinite;" /><path d="M64.1 91.426H22.955l20.564 36.575h41.145z" opacity=".6" fill="#5b548b" style="animation:solidity-facet-4 8s ease-in-out -2.2s infinite;" /><path d="M84.666 54.864L64.102 91.426l20.564 36.575 20.579-36.575z" opacity=".8" fill="#5b548b" style="animation:solidity-facet-5 8s ease-in-out -2.75s infinite;" />
+  </g></svg>

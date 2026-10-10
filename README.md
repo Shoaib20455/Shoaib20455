@@ -47,27 +47,27 @@ Reliable software needs to account for what happens when a request repeats, an e
 <table align="center">
   <tr>
     <td align="center" width="96">
-        <img src="assets/icons/react-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/react-animated.svg" alt="React" width="65" height="65" />
       <br>React
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/python-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/python-animated.svg" alt="Python" width="65" height="65" />
       <br>Python
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/javascript-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/javascript-animated.svg" alt="JavaScript" width="65" height="65" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/typescript-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/typescript-animated.svg" alt="TypeScript" width="65" height="65" />
       <br>TypeScript
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/aws-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/aws-animated.svg" alt="AWS" width="65" height="65" />
       <br>AWS
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/github-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/github-animated.svg" alt="GitHub" width="65" height="65" />
       <br>GitHub
     </td>
     <td align="center" width="96">
@@ -155,8 +155,8 @@ Reliable software needs to account for what happens when a request repeats, an e
       <br>ERC-4337
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/metamask-animated.svg" width="48" height="48" alt="Multisig" />
-      <br>Multisig
+        <img src="assets/icons/metamask-animated.svg" width="48" height="48" alt="MetaMask" />
+      <br>MetaMask
     </td>
   </tr>
 </table>
