@@ -1,19 +1,20 @@
 <!--suppress HtmlDeprecatedAttribute -->
-# Hello! 👋 I am a Blockchain Developer & Web3 Engineer
+# Hello! 👋 I’m Muhammad Shoaib — Full Stack & Blockchain Developer
 <div>
 <br/>
-- 🔭 Full-stack developer with 8+ years of experience designing and building scalable, high-performance blockchain, web applications<br/>
-- 🌱 Proficient in front-end technologies like React, Angular, and Vue.js, as well as back-end technologies like Node.js, Python, and PHP<br/>
-- 👍 Experienced in DevOps, CI/CD, and Cloud infrastructure, especially with AWS and Azure also GCP<br/>
-- 😍 Developed some AI Apps and integrated with web and ChatGPT.<br/>
-- 😉 Deep knowledge about deep learning, recommendation system and reinforcement system.</br>
-- ⛓️ Blockchain Developer & Web3 Engineer — building secure, scalable, and production-ready dApps, smart contracts, and DeFi protocols<br/>
-- 🔐 Specializing in EVM ecosystem (Ethereum, Polygon), Solana (Rust/Anchor), Stellar, and Zero Knowledge Proof systems (Aztec, Noir, Light Protocol)<br/>
-- 🛠️ Expert in smart contract development & auditing, token standards (ERC-20, ERC-721, ERC-1155, ERC-4337), Account Abstraction, Multisig Wallets, Diamond Proxy (EIP-2535), and Vesting Contracts<br/>
+- 🔭 Full Stack Developer at Bitblazetec since May 2026, building production web applications with Next.js, TypeScript, FastAPI, and PostgreSQL.<br/>
+- 🎨 Developed responsive interfaces with React and Tailwind CSS, and CMS publishing workflows with Payload CMS, cache revalidation, and structured data so content teams can publish without redeploying.<br/>
+- 🛒 Made checkout safer under retries with customer-scoped idempotency keys to prevent duplicate orders and repeated stock deductions.<br/>
+- 🔐 Strengthened access control by separating customer and staff authentication, enforcing permissions at router level, and testing rejected requests with Clerk, JWT, and TOTP.<br/>
+- 🛠️ Improved reliability by saving enquiries before sending email, protecting public forms against abuse, and retrying courier tracking requests in smaller batches when invalid tracking numbers disrupted responses.<br/>
+- 🚀 Built GitHub Actions deployment pipelines with health checks and automatic rollback, and used pytest, Vitest, and Cypress to verify application behaviour.<br/>
+- ⛓️ Previously a Blockchain Developer at Kaizen Global, working on token contracts, NFT marketplaces, staking, ERC-4337 account abstraction, Diamond Proxy, multisig wallets, and confidential transactions with zk-SNARKs.<br/>
+- 🌱 Production challenges have shaped how I work: design for partial failures, make retries safe, verify third-party API behaviour, and test deployment scripts alongside application code.<br/>
 
 </div>
 
 <h3 align="left">Languages and Tools:</h3>
+<p>Also in my stack: Next.js, FastAPI, SQLAlchemy, Alembic, Firebase, Zustand, Zod, Clerk, JWT, TOTP, pytest, Vitest, Cypress, testcontainers, GitHub Actions, Linux, nginx, systemd, Anchor, Ethers.js, and IPFS.</p>
 <div style="display: flex; align-items: flex-start; align: center">
 <table align="center">
   <tr>
@@ -34,34 +35,18 @@
       <br>TypeScript
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/cpp-animated.svg" alt="icon" width="65" height="65" />
-      <br>C++
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/csharp-animated.svg" alt="icon" width="65" height="65" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
         <img src="assets/icons/aws-animated.svg" alt="icon" width="65" height="65" />
       <br>AWS
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/mysql-animated.svg" alt="icon" width="65" height="65" />
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
         <img src="assets/icons/github-animated.svg" alt="icon" width="65" height="65" />
-      <br>Github
+      <br>GitHub
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
         <img src="assets/icons/git-animated.svg" width="48" height="48" alt="Git" />
       <br>Git
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/php-animated.svg" width="48" height="48" alt="PHP" />
-      <br>PHP
     </td>
     <td align="center" width="96">
         <img src="assets/icons/html-animated.svg" width="48" height="48" alt="HTML5" />
@@ -72,20 +57,12 @@
       <br>CSS
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/bootstrap-animated.svg" width="48" height="48" alt="Bootstrap" />
-      <br>Bootstrap
-    </td>
-    <td align="center" width="96">
         <img src="assets/icons/tailwind-animated.svg" width="48" height="48" alt="Tailwind" />
       <br>Tailwind
     </td>
     <td align="center" width="96">
         <img src="assets/icons/nodejs-animated.svg" width="48" height="48" alt="Node.js" />
       <br>Node.js
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/mongodb-animated.svg" width="48" height="48" alt="MongoDB" />
-      <br>MongoDB
     </td>
     <td align="center" width="96">
         <img src="assets/icons/postgres-animated.svg" width="48" height="48" alt="PostgreSQL" />
@@ -106,28 +83,8 @@
       <br>GraphQL
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/redis-animated.svg" width="48" height="48" alt="Redis" />
-      <br>Redis
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/polygon-animated.svg" width="48" height="48" alt="Polygon" />
-      <br>Polygon
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/stellar-animated.svg" width="48" height="48" alt="Stellar" />
-      <br>Stellar
-    </td>
-    <td align="center" width="96">
         <img src="assets/icons/payload-animated.svg" width="48" height="48" alt="Payload CMS" />
       <br>Payload CMS
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/motion-animated.svg" width="48" height="48" alt="motion.dev" />
-      <br>motion.dev
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/passenger-animated.svg" width="48" height="48" alt="Passenger" />
-      <br>Passenger
     </td>
   </tr>
   <tr>
@@ -176,10 +133,6 @@
     <td align="center" width="96">
         <img src="assets/icons/metamask-animated.svg" width="48" height="48" alt="Multisig" />
       <br>Multisig
-    </td>
-    <td align="center" width="96">
-        <img src="assets/icons/uniswap-animated.svg" width="48" height="48" alt="DeFi" />
-      <br>DeFi
     </td>
   </tr>
 </table>
