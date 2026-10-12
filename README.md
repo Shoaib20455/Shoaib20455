@@ -1,47 +1,10 @@
-### Full Stack Developer · Web Applications / APIs / Blockchain
+### Full Stack Developer · Web Apps, APIs & Blockchain
 
-I build production web applications across the frontend, backend, and database: responsive interfaces, CMS publishing workflows, commerce features, and third-party integrations using Next.js, TypeScript, FastAPI, and PostgreSQL.
+I’m Shoaib, a Full Stack Developer at **Bitblazetec**. I build web apps, APIs, CMS platforms, and e-commerce systems with Next.js, TypeScript, FastAPI, Payload CMS, and PostgreSQL.
 
-My focus is **application reliability & security**: preventing duplicate orders, enforcing access controls, protecting public forms, and making deployments recover safely when a release fails. My blockchain background also brings experience with smart contract development, testing, and code reviews.
-
----
-
-### What I'm focused on now
-
-Working as a **Full Stack Developer at Bitblazetec**, connecting frontend experiences with backend workflows for content publishing, checkout, authentication, and courier tracking. I also work on caching, automated tests, and CI/CD pipelines to keep applications maintainable and releases predictable.
-
----
-
-### Engineering & Development Background
-
-- **Bitblazetec · May 2026–Present:** Full stack development with Next.js, React, FastAPI, and PostgreSQL, covering application features, API integrations, security, testing, and deployment.
-- **Kaizen Global · Nov 2025–May 2026:** Blockchain development across token contracts, NFT marketplaces, staking, ERC-4337 account abstraction, Diamond Proxy, multisig wallets, and zk-SNARK confidential transactions.
-- **Behindev · Dec 2023–Jan 2024:** Developed a real-time chat application and responsive interfaces with React, Express.js, Firebase, and Tailwind CSS.
-- **BS Computer Science · NUML:** Led an Ethereum and IPFS academic document verification application with role-based workflows and MetaMask login.
-
----
-
-### Selected Project Work
-
-- **E-commerce application:** Worked across a Next.js storefront, admin dashboard, and FastAPI/PostgreSQL backend. Added customer-scoped checkout idempotency to prevent duplicate orders under retries, strengthened customer and staff access controls, and handled courier tracking failures with smaller request batches.
-- **CMS publishing & lead management:** Built Next.js and Payload CMS workflows so content teams could publish SEO-ready posts without redeploying. Used cache revalidation and structured data, protected public forms against abuse, and saved enquiries before sending email to avoid losing leads during mail outages.
-- **Academic document verification:** Led an Ethereum and IPFS application for verifying academic documents, with MetaMask authentication and separate workflows for participating roles.
-
----
-
-### Engineering philosophy
-
-Reliable software needs to account for what happens when a request repeats, an external service fails, or a release does not pass its health checks. Those problems have taught me to make retries safe, preserve data before triggering external actions, and verify integration behaviour rather than assume it. I treat rejected requests, failure paths, and deployment scripts as part of the testing scope.
-
----
+I also develop smart contracts and Web3 applications on Ethereum and Solana, with a focus on security and reliability.
 
 ### Tech stack
-
-- **Frontend:** Next.js, React, TypeScript, JavaScript, Tailwind CSS, Zustand, Zod
-- **Backend & data:** FastAPI, Python, Node.js, Express.js, Payload CMS, PostgreSQL, SQLAlchemy, Alembic, Firebase, REST APIs, GraphQL
-- **Security & deployment:** Clerk, JWT, TOTP, GitHub Actions, Linux, nginx, systemd, AWS Lightsail, Docker, Git
-- **Testing:** pytest, Vitest, Cypress, testcontainers, smart contract fuzz testing
-- **Blockchain:** Solidity, Rust, Ethereum, Solana/Anchor, Hardhat, Foundry, Ethers.js, Web3.js, ERC-4337, zk-SNARKs, IPFS
 
 <div style="display: flex; align-items: flex-start; align: center">
 <table align="center">
