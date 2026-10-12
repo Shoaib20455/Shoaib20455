@@ -1,10 +1,26 @@
-### Full Stack Developer · Web Apps, APIs & Blockchain
+### Full Stack Developer · Web Applications, APIs & Blockchain
 
-I’m Shoaib, a Full Stack Developer at **Bitblazetec**. I build web apps, APIs, CMS platforms, and e-commerce systems with Next.js, TypeScript, FastAPI, Payload CMS, and PostgreSQL.
+### What I Build
 
-I also develop smart contracts and Web3 applications on Ethereum and Solana, with a focus on security and reliability.
+I build web applications, APIs, CMS platforms, and e-commerce systems, covering frontend interfaces, backend services, and databases. I also develop smart contracts and Web3 applications on Ethereum and Solana.
+
+### Current Focus
+
+At **Bitblazetec**, I’m working on content publishing, checkout, authentication, and third-party integrations. My focus is secure access, safe retries, automated testing, and reliable deployments.
+
+### Selected Experience
+
+- **Web platforms:** Built CMS publishing and lead-management workflows, customer checkout features, and courier integrations with access controls and safe retries.
+- **Blockchain:** At **Kaizen Global**, worked on token contracts, NFT marketplaces, staking, ERC-4337 account abstraction, multisig wallets, Diamond Proxy, and zk-SNARK transactions.
+- **Document verification:** Led an Ethereum and IPFS academic verification platform with MetaMask authentication and role-based workflows.
 
 ### Tech stack
+
+- **Frontend:** Next.js, React, TypeScript, JavaScript, Tailwind CSS, Zustand, Zod
+- **Backend & data:** FastAPI, Python, Node.js, Express.js, Payload CMS, PostgreSQL, SQLAlchemy, Alembic, Firebase, REST APIs, GraphQL
+- **Security & deployment:** Clerk, JWT, TOTP, GitHub Actions, Linux, nginx, systemd, AWS Lightsail, Docker, Git
+- **Testing:** pytest, Vitest, Cypress, testcontainers, smart contract fuzz testing
+- **Blockchain:** Solidity, Rust, Ethereum, Solana/Anchor, Hardhat, Foundry, Ethers.js, Web3.js, ERC-4337, zk-SNARKs, IPFS
 
 <div style="display: flex; align-items: flex-start; align: center">
 <table align="center">
