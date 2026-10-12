@@ -6,7 +6,7 @@ I build web applications, APIs, CMS platforms, and e-commerce systems, covering 
 
 ### Current Focus
 
-At **Bitblazetec**, I’m working on content publishing, checkout, authentication, and third-party integrations. My focus is secure access, safe retries, automated testing, and reliable deployments.
+I’m currently working on content publishing, checkout, authentication, and third-party integrations. My focus is secure access, safe retries, automated testing, and reliable deployments.
 
 ### Selected Experience
 
