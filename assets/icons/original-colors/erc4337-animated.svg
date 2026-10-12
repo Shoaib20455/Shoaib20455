@@ -1,0 +1,12 @@
+<svg fill="#8b5cf6" color="#8b5cf6" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Ethereum</title><path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"/>
+  <style>
+    @keyframes erc-breathe {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.08); opacity: 0.85; }
+    }
+    svg path {
+      animation: erc-breathe 2.5s ease-in-out infinite;
+      transform-origin: 12px 12px;
+    }
+  </style>
+</svg>

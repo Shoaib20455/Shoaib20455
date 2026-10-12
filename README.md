@@ -67,11 +67,11 @@ Reliable software needs to account for what happens when a request repeats, an e
       <br>AWS
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/github-animated.svg" alt="icon" width="65" height="65" />
+        <img src="assets/icons/original-colors/github-animated.svg" alt="icon" width="65" height="65" />
       <br>GitHub
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/git-animated.svg" width="48" height="48" alt="Git" />
+        <img src="assets/icons/original-colors/git-animated.svg" width="48" height="48" alt="Git" />
       <br>Git
     </td>
     <td align="center" width="96">
@@ -113,21 +113,21 @@ Reliable software needs to account for what happens when a request repeats, an e
       <br>Payload CMS
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/solidity-animated.svg" width="48" height="48" alt="Solidity" />
+        <img src="assets/icons/original-colors/solidity-animated.svg" width="48" height="48" alt="Solidity" />
       <br>Solidity
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/rust-animated.svg" width="48" height="48" alt="Rust" />
+        <img src="assets/icons/original-colors/rust-animated.svg" width="48" height="48" alt="Rust" />
       <br>Rust
     </td>
   </tr>
   <tr>
     <td align="center" width="96">
-        <img src="assets/icons/ethereum-animated.svg" width="48" height="48" alt="Ethereum" />
+        <img src="assets/icons/original-colors/ethereum-animated.svg" width="48" height="48" alt="Ethereum" />
       <br>Ethereum
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/solana-animated.svg" width="48" height="48" alt="Solana" />
+        <img src="assets/icons/original-colors/solana-animated.svg" width="48" height="48" alt="Solana" />
       <br>Solana
     </td>
     <td align="center" width="96">
@@ -151,7 +151,7 @@ Reliable software needs to account for what happens when a request repeats, an e
       <br>ZK
     </td>
     <td align="center" width="96">
-        <img src="assets/icons/erc4337-animated.svg" width="48" height="48" alt="ERC-4337" />
+        <img src="assets/icons/original-colors/erc4337-animated.svg" width="48" height="48" alt="ERC-4337" />
       <br>ERC-4337
     </td>
     <td align="center" width="96">
